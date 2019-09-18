@@ -1,20 +1,24 @@
 # Site settings
-title: Mauricio Urraco
+title: Meher Slimene - CV
 description: Jekyll Theme Minimal Resume
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Mauricio Urraco
-user_description: I'm a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT.. I'm one of the two guys behind all the JS related stuff. Visit my blog here":" <a href="https://mauriciourraco.com" target="_blank">https://mauriciourraco.com</a>
-user_title: Software Engineer
-email: mauriurraco@gmail.com
+username: Meher Slimene
+user_description: Meher Slimene, 35 ans, Tunisien de naissance, issu d’une famille modeste, rurale, originaire de Zaouit El Jedidi, ma jeunesse a été marquée par les différents événements que notre Tunisie a traversé de Bourguiba, Ben Ali arrivant à la révolution, celle qui nous a tous fait rêver et qui nous a guidé vers notre troisième république, celle d’aujourd’hui.
+user_title: Candidat aux élections légeslatives
+email: meherslimene@gmail.com
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
 # gplus_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-148294299-1"
+
+sass:
+  sass_dir: src/styles
+
 
 exclude: ['package.json', 'src' , 'node_modules']
