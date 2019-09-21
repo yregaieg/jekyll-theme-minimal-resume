@@ -21,4 +21,4 @@ sass:
   sass_dir: src/styles
 
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'vendor']
