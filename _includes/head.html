@@ -5,7 +5,17 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="language" content="fr" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="{{ '/assets/campaign_social.jpg' | prepend: site.baseurl }}" />
+  <meta property="og:url" content="https://www.meherslimene.com" />
+  <link rel="canonical" href="https://www.meherslimene.com" />
+  <meta property="twitter:image" content="{{ '/assets/campaign_social.jpg' | prepend: site.baseurl }}" />
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
   <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
