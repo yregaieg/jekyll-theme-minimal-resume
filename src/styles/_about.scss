@@ -1,6 +1,6 @@
 #about {
   font-size: 120%;
-  
+
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -30,6 +30,9 @@
   justify-content: space-between;
   p {
     font-size: 16px;
+  }
+  @media screen and (max-width: 950px)  {
+    flex-direction: column;
   }
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
