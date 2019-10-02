@@ -1,13 +1,13 @@
 # Site settings
 title: Meher Slimene
-description: Biographie de Meher Slimene
+description: Biography of Meher Slimene
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Meher Slimene
-user_description: Meher Slimene 35 ans Tunisien de naissance, issu d’une famille modeste, rurale, originaire de Beni Khalled, ma jeunesse (même si je ne crois pas que je suis encore très jeune) a été marquée par les différents événements que notre Tunisie a traversé de Bourguiba, Ben Ali arrivant à la révolution, celle qui nous a tous fait rêver et qui nous a guidé vers notre troisième république, celle d’aujourd’hui.
-user_title: Candidat aux élections législatives
+user_description: My name is Meher Slimene, I’m 35 years old, I’m Tunisian and I come from a modest and rural family, originating from Zaouit El Jedidi. Although I do not think  that I'm still very young, my youth was marked by the different events that ourTunisia went through from Bourguiba’s regime to Ben Ali’s, arriving at the Revolution which is the only thing that made us all dream and who guided us to our third republic, that of today.
+user_title: Candidate for the Tunisian legislative elections
 email: meherslimene@gmail.com
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
